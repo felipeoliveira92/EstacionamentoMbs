@@ -1,0 +1,10 @@
+========== Estacionamento MBS ===============
+================ Recibo =====================
+ 
+Saida:
+	Data 22/02/2021 22:54:02
+	Do Veiculo : iphone
+	Cor : reerde
+	Placa : jdu-0909
+	Valor Cobrado : R$18,15
+==============================================

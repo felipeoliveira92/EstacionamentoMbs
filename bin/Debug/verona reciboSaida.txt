@@ -1,0 +1,10 @@
+========== Estacionamento MBS ===============
+================ Recibo =====================
+ 
+Saida:
+	Data 13/02/2021 16:25:23
+	Do Veiculo : verona
+	Cor : preto
+	Placa : DDF-0019
+	Valor Cobrado : R$Valor a Cobrar R$ 0,36
+==============================================

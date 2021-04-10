@@ -1,0 +1,9 @@
+============ Estacionamento MBS ==============
+================== Recibo ====================
+ 
+Entrada:
+	Data 13/02/2021 19:16:32
+	Recebemos o Veiculo : jetta
+	Cor : rosa
+	Placa : dje-0909
+==============================================

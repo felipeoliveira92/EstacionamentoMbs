@@ -1,0 +1,9 @@
+============ Estacionamento MBS ==============
+================== Recibo ====================
+ 
+Entrada:
+	Data 27/02/2021 17:49:16
+	Recebemos o Veiculo : FIESTA 
+	Cor : BRANCO
+	Placa : GGG-9090
+==============================================

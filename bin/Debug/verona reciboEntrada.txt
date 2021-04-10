@@ -1,0 +1,9 @@
+============ Estacionamento MBS ==============
+================== Recibo ====================
+ 
+Entrada:
+	Data 13/02/2021 16:21:04
+	Recebemos o Veiculo : verona
+	Cor : preto
+	Placa : DDF-0019
+==============================================

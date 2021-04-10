@@ -1,0 +1,10 @@
+========== Estacionamento MBS ===============
+================ Recibo =====================
+ 
+Saida:
+	Data 27/02/2021 17:49:34
+	Do Veiculo : FIESTA 
+	Cor : BRANCO
+	Placa : GGG-9090
+	Valor Cobrado : R$0
+==============================================

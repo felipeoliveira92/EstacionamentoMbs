@@ -1,0 +1,10 @@
+========== Estacionamento MBS ===============
+================ Recibo =====================
+ 
+Saida:
+	Data 26/02/2021 22:02:55
+	Do Veiculo : jetta
+	Cor : rosa
+	Placa : dje-0909
+	Valor Cobrado : R$14,14
+==============================================

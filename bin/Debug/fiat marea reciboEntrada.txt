@@ -1,0 +1,9 @@
+============ Estacionamento MBS ==============
+================== Recibo ====================
+ 
+Entrada:
+	Data 23/11/2020 15:52:57
+	Recebemos o Veiculo : fiat marea
+	Cor : preto
+	Placa : hhh-7777
+==============================================

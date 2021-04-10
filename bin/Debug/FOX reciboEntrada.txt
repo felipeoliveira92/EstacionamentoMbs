@@ -1,0 +1,9 @@
+============ Estacionamento MBS ==============
+================== Recibo ====================
+ 
+Entrada:
+	Data 13/02/2021 17:24:09
+	Recebemos o Veiculo : FOX
+	Cor : PRATA
+	Placa : TTT-9090
+==============================================

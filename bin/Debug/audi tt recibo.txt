@@ -1,0 +1,9 @@
+========== Estacionamento MBS ===============
+================ Recibo =====================
+ 
+Saida:
+	Data 21/11/2020 09:34:48
+	Do Veiculo : audi tt
+	Cor : preto
+	Placa : System.Windows.Forms.MaskedTextBox, Text: hhh-9090
+==============================================

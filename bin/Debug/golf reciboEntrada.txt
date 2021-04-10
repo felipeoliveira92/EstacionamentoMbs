@@ -1,0 +1,9 @@
+============ Estacionamento MBS ==============
+================== Recibo ====================
+ 
+Entrada:
+	Data 13/02/2021 18:10:59
+	Recebemos o Veiculo : GOLf
+	Cor : preto
+	Placa : ioi-0909
+==============================================

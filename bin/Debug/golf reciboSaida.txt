@@ -1,0 +1,10 @@
+========== Estacionamento MBS ===============
+================ Recibo =====================
+ 
+Saida:
+	Data 15/03/2021 20:58:14
+	Do Veiculo : GOLf
+	Cor : preto
+	Placa : ioi-0909
+	Valor Cobrado : R$14,23
+==============================================

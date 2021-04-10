@@ -1,0 +1,9 @@
+============ Estacionamento MBS ==============
+================== Recibo ====================
+ 
+Entrada:
+	Data 23/11/2020 16:07:50
+	Recebemos o Veiculo : omega
+	Cor : azul
+	Placa : hhh-9898
+==============================================

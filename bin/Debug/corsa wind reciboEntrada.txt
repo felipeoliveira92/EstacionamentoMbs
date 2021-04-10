@@ -1,0 +1,9 @@
+============ Estacionamento MBS ==============
+================== Recibo ====================
+ 
+Entrada:
+	Data 13/02/2021 19:20:35
+	Recebemos o Veiculo : corsa wind
+	Cor : ferede
+	Placa : 121-2121
+==============================================

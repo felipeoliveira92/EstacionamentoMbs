@@ -1,0 +1,9 @@
+============ Estacionamento MBS ==============
+================== Recibo ====================
+ 
+Entrada:
+	Data 23/11/2020 16:08:24
+	Recebemos o Veiculo : fiat palio
+	Cor : verde
+	Placa : yyy-8888
+==============================================

@@ -1,0 +1,10 @@
+========== Estacionamento MBS ===============
+================ Recibo =====================
+ 
+Saida:
+	Data 13/02/2021 19:27:37
+	Do Veiculo : FOX
+	Cor : PRATA
+	Placa : TTT-9090
+	Valor Cobrado : R$10,27
+==============================================

@@ -1,0 +1,9 @@
+========== Estacionamento MBS ===============
+================ Recibo =====================
+ 
+Saida:
+	Data 21/11/2020 12:13:24
+	Do Veiculo : VECTRA GT
+	Cor : VERMELHO
+	Placa : DDF-8888
+==============================================

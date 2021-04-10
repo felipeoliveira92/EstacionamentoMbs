@@ -1,0 +1,10 @@
+========== Estacionamento MBS ===============
+================ Recibo =====================
+ 
+Saida:
+	Data 15/03/2021 20:58:30
+	Do Veiculo : tucson
+	Cor : marrom
+	Placa : ioi-9099
+	Valor Cobrado : R$8,15
+==============================================

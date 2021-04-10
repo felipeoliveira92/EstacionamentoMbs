@@ -1,0 +1,9 @@
+============ Estacionamento MBS ==============
+================== Recibo ====================
+ 
+Entrada:
+	Data 26/02/2021 22:17:34
+	Recebemos o Veiculo : CG TITAN
+	Cor : PRATA
+	Placa : EFT-1221
+==============================================

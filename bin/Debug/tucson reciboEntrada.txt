@@ -1,0 +1,9 @@
+============ Estacionamento MBS ==============
+================== Recibo ====================
+ 
+Entrada:
+	Data 13/02/2021 19:23:29
+	Recebemos o Veiculo : tucson
+	Cor : marrom
+	Placa : ioi-9099
+==============================================

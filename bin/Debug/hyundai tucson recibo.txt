@@ -1,0 +1,9 @@
+===================== Estacionamento MBS =================
+============================ Recibo ======================
+ 
+Entrada:
+	Data 21/11/2020 07:40:09
+	Recebemos o Veiculo : hyundai tucson
+	Cor : chumbo
+	Placa : uiu-0000
+==============================================

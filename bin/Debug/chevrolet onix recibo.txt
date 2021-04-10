@@ -1,0 +1,9 @@
+========== Estacionamento MBS ===============
+================ Recibo =====================
+ 
+Saida:
+	Data 21/11/2020 11:42:20
+	Do Veiculo : chevrolet onix
+	Cor : vermelho
+	Placa : jgj-0909
+==============================================

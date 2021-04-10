@@ -1,0 +1,10 @@
+========== Estacionamento MBS ===============
+================ Recibo =====================
+ 
+Saida:
+	Data 26/02/2021 22:18:59
+	Do Veiculo : CG TITAN
+	Cor : PRATA
+	Placa : EFT-1221
+	Valor Cobrado : R$0,09
+==============================================

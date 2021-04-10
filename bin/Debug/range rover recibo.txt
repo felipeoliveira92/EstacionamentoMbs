@@ -1,0 +1,9 @@
+========== Estacionamento MBS ===============
+================ Recibo =====================
+ 
+Saida:
+	Data 23/11/2020 12:30:51
+	Do Veiculo : range rover
+	Cor : chumbo
+	Placa : hhh-9999
+==============================================

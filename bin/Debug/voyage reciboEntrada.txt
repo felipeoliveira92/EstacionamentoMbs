@@ -1,0 +1,9 @@
+============ Estacionamento MBS ==============
+================== Recibo ====================
+ 
+Entrada:
+	Data 26/02/2021 22:00:43
+	Recebemos o Veiculo : voyage
+	Cor : preto
+	Placa : ddf-9090
+==============================================

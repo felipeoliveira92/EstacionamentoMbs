@@ -1,0 +1,9 @@
+============ Estacionamento MBS ==============
+================== Recibo ====================
+ 
+Entrada:
+	Data 13/02/2021 19:18:52
+	Recebemos o Veiculo : iphone
+	Cor : reerde
+	Placa : jdu-0909
+==============================================

@@ -1,0 +1,9 @@
+============ Estacionamento MBS ==============
+================== Recibo ====================
+ 
+Entrada:
+	Data 13/02/2021 19:09:54
+	Recebemos o Veiculo : creta
+	Cor : verde
+	Placa : tyt-9821
+==============================================

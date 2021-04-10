@@ -1,0 +1,10 @@
+========== Estacionamento MBS ===============
+================ Recibo =====================
+ 
+Saida:
+	Data 15/03/2021 20:58:21
+	Do Veiculo : creta
+	Cor : verde
+	Placa : tyt-9821
+	Valor Cobrado : R$9,32
+==============================================

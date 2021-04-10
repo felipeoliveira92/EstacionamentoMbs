@@ -1,0 +1,9 @@
+========== Estacionamento MBS ===============
+================ Recibo =====================
+ 
+Saida:
+	Data 21/11/2020 11:44:15
+	Do Veiculo : Hyunday azera
+	Cor : prata
+	Placa : uoi-8909
+==============================================

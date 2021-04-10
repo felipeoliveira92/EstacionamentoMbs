@@ -1,0 +1,9 @@
+========== Estacionamento MBS ===============
+================ Recibo =====================
+ 
+Saida:
+	Data 23/11/2020 12:27:34
+	Do Veiculo : chevrolet cruze
+	Cor : branco
+	Placa : kkk-0909
+==============================================

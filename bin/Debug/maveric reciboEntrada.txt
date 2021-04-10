@@ -1,0 +1,9 @@
+============ Estacionamento MBS ==============
+================== Recibo ====================
+ 
+Entrada:
+	Data 08/12/2020 20:18:32
+	Recebemos o Veiculo : maveric
+	Cor : verde
+	Placa : kkk-0000
+==============================================

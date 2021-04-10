@@ -1,0 +1,9 @@
+============ Estacionamento MBS ==============
+================== Recibo ====================
+ 
+Entrada:
+	Data 13/02/2021 16:30:42
+	Recebemos o Veiculo : range rover
+	Cor : prata
+	Placa : RRR-0909
+==============================================

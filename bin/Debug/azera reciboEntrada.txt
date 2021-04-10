@@ -1,0 +1,9 @@
+============ Estacionamento MBS ==============
+================== Recibo ====================
+ 
+Entrada:
+	Data 13/02/2021 19:25:39
+	Recebemos o Veiculo : azera
+	Cor : amarelo
+	Placa : eef-9099
+==============================================

@@ -1,0 +1,10 @@
+========== Estacionamento MBS ===============
+================ Recibo =====================
+ 
+Saida:
+	Data 13/02/2021 16:12:48
+	Do Veiculo : vectra gt
+	Cor : cinza
+	Placa : ewe-1212
+	Valor Cobrado : 
+==============================================
