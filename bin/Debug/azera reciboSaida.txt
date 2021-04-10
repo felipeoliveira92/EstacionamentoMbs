@@ -1,0 +1,10 @@
+========== Estacionamento MBS ===============
+================ Recibo =====================
+ 
+Saida:
+	Data 09/04/2021 22:27:11
+	Do Veiculo : azera
+	Cor : amarelo
+	Placa : eef-9099
+	Valor Cobrado : R$15,09
+==============================================

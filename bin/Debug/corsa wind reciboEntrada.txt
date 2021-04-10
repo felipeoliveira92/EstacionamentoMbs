@@ -2,8 +2,8 @@
 ================== Recibo ====================
  
 Entrada:
-	Data 13/02/2021 19:20:35
+	Data 09/04/2021 22:27:01
 	Recebemos o Veiculo : corsa wind
-	Cor : ferede
-	Placa : 121-2121
+	Cor : verde
+	Placa : owq-9121
 ==============================================

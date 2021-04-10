@@ -27,8 +27,8 @@ namespace EstacionamentoMbs.Properties {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
         [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\felipe rabelo\\Docum" +
-            "ents\\Projetos\\portaria edição\\ads\\2ºsemestre\\angelina\\EstacionamentoMbs\\Database" +
-            "Mbs.mdf\";Integrated Security=True")]
+            "ents\\Projetos\\portaria edição\\ads\\2ºsemestre\\angelina\\EstacionamentoMbs\\Estacion" +
+            "amentoMbs\\DatabaseMbs.mdf\";Integrated Security=True")]
         public string BdMbs {
             get {
                 return ((string)(this["BdMbs"]));

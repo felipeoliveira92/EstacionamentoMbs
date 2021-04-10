@@ -1,0 +1,10 @@
+========== Estacionamento MBS ===============
+================ Recibo =====================
+ 
+Saida:
+	Data 09/04/2021 22:27:23
+	Do Veiculo : voyage
+	Cor : preto
+	Placa : ddf-9090
+	Valor Cobrado : R$2,34
+==============================================

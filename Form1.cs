@@ -219,7 +219,9 @@ namespace EstacionamentoMbs
             }
 
         }
+
         double horas, total;
+
         private void dataGridViewEstatus_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             if(dataGridViewEstatus.CurrentRow == null)
