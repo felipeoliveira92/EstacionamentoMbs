@@ -105,9 +105,7 @@ namespace EstacionamentoMbs
                     printDocument1.Print();
                 }
 
-                */
-
-                
+                */                
             }
             catch (Exception)
             {
@@ -196,9 +194,7 @@ namespace EstacionamentoMbs
                 objetoarquivo.WriteLine("\tValor Cobrado : R$" + total.ToString());
                 objetoarquivo.WriteLine("==============================================");
                 objetoarquivo.Close();
-                Process.Start(textBoxModelo.Text + " reciboSaida.txt");
-
-                
+                Process.Start(textBoxModelo.Text + " reciboSaida.txt");                
 
                 textBoxModelo.Text = "";
                 textBoxCor.Text = "";

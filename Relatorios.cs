@@ -37,15 +37,15 @@ namespace EstacionamentoMbs
 
                 if(textBoxModelo.Text == "" && textBoxPlaca.Text == "")
                 {
-                    comando.CommandText = "select * from relatorio where horaEntrada between @dataInicio and @dataFim order by horaEntrada";
+                    comando.CommandText = "SELECT * FROM relatorio WHERE horaEntrada between @dataInicio and @dataFim order by horaEntrada";
                 }
                 else if(textBoxModelo.Text != "")
                 {
-                    comando.CommandText = "select * from relatorio where horaEntrada between @dataInicio and @dataFim and modelo like @modelo order by horaEntrada";
+                    comando.CommandText = "SELECT * FROM relatorio WHERE horaEntrada between @dataInicio and @dataFim and modelo like @modelo order by horaEntrada";
                 }
                 else if (textBoxPlaca.Text != "")
                 {
-                    comando.CommandText = "select * from relatorio where horaEntrada between @dataInicio and @dataFim and placa = @placa order by horaEntrada";
+                    comando.CommandText = "SELECT * FROM relatorio WHERE horaEntrada between @dataInicio and @dataFim and placa = @placa order by horaEntrada";
                 }
 
                 comando.Parameters.AddWithValue("@dataInicio", dateTimePickerInicio.Value.ToString());
@@ -58,6 +58,7 @@ namespace EstacionamentoMbs
                 SqlDataAdapter da = new SqlDataAdapter(comando);
                 da.Fill(dt);
                 dataGridViewRelatorios.DataSource = dt;
+                dataGridViewRelatorios.Columns[0].Visible = false;
                 dataGridViewRelatorios.AutoResizeColumns();
 
                 sqlConnection.Close();
