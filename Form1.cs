@@ -79,8 +79,7 @@ namespace EstacionamentoMbs
             catch (Exception msg)
             {
                 MessageBox.Show(msg.Message);
-            }
-            
+            }            
 
             try
             {
