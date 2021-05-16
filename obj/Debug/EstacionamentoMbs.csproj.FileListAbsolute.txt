@@ -26,3 +26,18 @@ C:\Users\felipe rabelo\Documents\Projetos\portaria edição\ads\2ºsemestre\ange
 C:\Users\felipe rabelo\Documents\Projetos\portaria edição\ads\2ºsemestre\angelina\EstacionamentoMbs\EstacionamentoMbs\obj\Debug\EstacionamentoMbs.csproj.GenerateResource.cache
 C:\Users\felipe rabelo\Documents\Projetos\portaria edição\ads\2ºsemestre\angelina\EstacionamentoMbs\EstacionamentoMbs\obj\Debug\EstacionamentoMbs.exe
 C:\Users\felipe rabelo\Documents\Projetos\portaria edição\ads\2ºsemestre\angelina\EstacionamentoMbs\EstacionamentoMbs\obj\Debug\EstacionamentoMbs.pdb
+C:\Users\Felipe\Documents\Projetos\EstacionamentoMbs\bin\Debug\DatabaseMbs.mdf
+C:\Users\Felipe\Documents\Projetos\EstacionamentoMbs\bin\Debug\DatabaseMbs_log.ldf
+C:\Users\Felipe\Documents\Projetos\EstacionamentoMbs\bin\Debug\EstacionamentoMbs.exe.config
+C:\Users\Felipe\Documents\Projetos\EstacionamentoMbs\bin\Debug\EstacionamentoMbs.exe
+C:\Users\Felipe\Documents\Projetos\EstacionamentoMbs\bin\Debug\EstacionamentoMbs.pdb
+C:\Users\Felipe\Documents\Projetos\EstacionamentoMbs\obj\Debug\EstacionamentoMbs.csprojAssemblyReference.cache
+C:\Users\Felipe\Documents\Projetos\EstacionamentoMbs\obj\Debug\EstacionamentoMbs.Backup.resources
+C:\Users\Felipe\Documents\Projetos\EstacionamentoMbs\obj\Debug\EstacionamentoMbs.Home.resources
+C:\Users\Felipe\Documents\Projetos\EstacionamentoMbs\obj\Debug\EstacionamentoMbs.login.resources
+C:\Users\Felipe\Documents\Projetos\EstacionamentoMbs\obj\Debug\EstacionamentoMbs.Properties.Resources.resources
+C:\Users\Felipe\Documents\Projetos\EstacionamentoMbs\obj\Debug\EstacionamentoMbs.Relatorios.resources
+C:\Users\Felipe\Documents\Projetos\EstacionamentoMbs\obj\Debug\EstacionamentoMbs.csproj.GenerateResource.cache
+C:\Users\Felipe\Documents\Projetos\EstacionamentoMbs\obj\Debug\EstacionamentoMbs.csproj.CoreCompileInputs.cache
+C:\Users\Felipe\Documents\Projetos\EstacionamentoMbs\obj\Debug\EstacionamentoMbs.exe
+C:\Users\Felipe\Documents\Projetos\EstacionamentoMbs\obj\Debug\EstacionamentoMbs.pdb
