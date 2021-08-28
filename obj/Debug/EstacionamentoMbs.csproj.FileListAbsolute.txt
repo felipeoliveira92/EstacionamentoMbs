@@ -31,7 +31,6 @@ C:\Users\Felipe\Documents\Projetos\EstacionamentoMbs\bin\Debug\DatabaseMbs_log.l
 C:\Users\Felipe\Documents\Projetos\EstacionamentoMbs\bin\Debug\EstacionamentoMbs.exe.config
 C:\Users\Felipe\Documents\Projetos\EstacionamentoMbs\bin\Debug\EstacionamentoMbs.exe
 C:\Users\Felipe\Documents\Projetos\EstacionamentoMbs\bin\Debug\EstacionamentoMbs.pdb
-C:\Users\Felipe\Documents\Projetos\EstacionamentoMbs\obj\Debug\EstacionamentoMbs.csprojAssemblyReference.cache
 C:\Users\Felipe\Documents\Projetos\EstacionamentoMbs\obj\Debug\EstacionamentoMbs.Backup.resources
 C:\Users\Felipe\Documents\Projetos\EstacionamentoMbs\obj\Debug\EstacionamentoMbs.Home.resources
 C:\Users\Felipe\Documents\Projetos\EstacionamentoMbs\obj\Debug\EstacionamentoMbs.login.resources
@@ -41,3 +40,4 @@ C:\Users\Felipe\Documents\Projetos\EstacionamentoMbs\obj\Debug\EstacionamentoMbs
 C:\Users\Felipe\Documents\Projetos\EstacionamentoMbs\obj\Debug\EstacionamentoMbs.csproj.CoreCompileInputs.cache
 C:\Users\Felipe\Documents\Projetos\EstacionamentoMbs\obj\Debug\EstacionamentoMbs.exe
 C:\Users\Felipe\Documents\Projetos\EstacionamentoMbs\obj\Debug\EstacionamentoMbs.pdb
+C:\Users\Felipe\Documents\Projetos\EstacionamentoMbs\obj\Debug\EstacionamentoMbs.csproj.AssemblyReference.cache
