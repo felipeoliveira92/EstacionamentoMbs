@@ -1,0 +1,15 @@
+C:\Users\Felipe\Documents\Projetos\EstacionamentoMbs\bin\x64\Debug\DatabaseMbs.mdf
+C:\Users\Felipe\Documents\Projetos\EstacionamentoMbs\bin\x64\Debug\DatabaseMbs_log.ldf
+C:\Users\Felipe\Documents\Projetos\EstacionamentoMbs\bin\x64\Debug\EstacionamentoMbs.exe.config
+C:\Users\Felipe\Documents\Projetos\EstacionamentoMbs\bin\x64\Debug\EstacionamentoMbs.exe
+C:\Users\Felipe\Documents\Projetos\EstacionamentoMbs\bin\x64\Debug\EstacionamentoMbs.pdb
+C:\Users\Felipe\Documents\Projetos\EstacionamentoMbs\obj\x64\Debug\EstacionamentoMbs.Backup.resources
+C:\Users\Felipe\Documents\Projetos\EstacionamentoMbs\obj\x64\Debug\EstacionamentoMbs.Home.resources
+C:\Users\Felipe\Documents\Projetos\EstacionamentoMbs\obj\x64\Debug\EstacionamentoMbs.login.resources
+C:\Users\Felipe\Documents\Projetos\EstacionamentoMbs\obj\x64\Debug\EstacionamentoMbs.Properties.Resources.resources
+C:\Users\Felipe\Documents\Projetos\EstacionamentoMbs\obj\x64\Debug\EstacionamentoMbs.Relatorios.resources
+C:\Users\Felipe\Documents\Projetos\EstacionamentoMbs\obj\x64\Debug\EstacionamentoMbs.csproj.GenerateResource.cache
+C:\Users\Felipe\Documents\Projetos\EstacionamentoMbs\obj\x64\Debug\EstacionamentoMbs.csproj.CoreCompileInputs.cache
+C:\Users\Felipe\Documents\Projetos\EstacionamentoMbs\obj\x64\Debug\EstacionamentoMbs.exe
+C:\Users\Felipe\Documents\Projetos\EstacionamentoMbs\obj\x64\Debug\EstacionamentoMbs.pdb
+C:\Users\Felipe\Documents\Projetos\EstacionamentoMbs\obj\x64\Debug\EstacionamentoMbs.csproj.AssemblyReference.cache

@@ -77,7 +77,7 @@ namespace EstacionamentoMbs
 
         private void Relatorios_Load(object sender, EventArgs e)
         {
-            dateTimePickerInicio.Value = DateTime.Now.AddDays(-1);
+            dateTimePickerInicio.Value = DateTime.Now.AddDays(-0.5);
             dataGridViewRelatorios.AutoResizeColumns();
         }
 
