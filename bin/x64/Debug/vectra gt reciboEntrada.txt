@@ -1,0 +1,9 @@
+============ Estacionamento MBS ==============
+================== Recibo ====================
+ 
+Entrada:
+	Data 11/10/2021 17:29:12
+	Recebemos o Veiculo : vectra gt
+	Cor : pink
+	Placa : drf-4851
+==============================================

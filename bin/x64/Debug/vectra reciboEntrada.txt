@@ -1,0 +1,9 @@
+============ Estacionamento MBS ==============
+================== Recibo ====================
+ 
+Entrada:
+	Data 11/10/2021 18:16:29
+	Recebemos o Veiculo : vectra
+	Cor : preto
+	Placa : ddf-4728
+==============================================

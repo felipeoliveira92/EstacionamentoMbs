@@ -48,8 +48,8 @@ namespace EstacionamentoMbs
                     comando.CommandText = "SELECT * FROM relatorio WHERE horaEntrada between @dataInicio and @dataFim and placa = @placa order by horaEntrada";
                 }
 
-                comando.Parameters.AddWithValue("@dataInicio", dateTimePickerInicio.Value.ToString());
-                comando.Parameters.AddWithValue("@dataFim", dateTimePickerFim.Value.ToString());
+                comando.Parameters.AddWithValue("@dataInicio", dateTimePickerInicio.Value);
+                comando.Parameters.AddWithValue("@dataFim", dateTimePickerFim.Value);
                 comando.Parameters.AddWithValue("@modelo", "%" + textBoxModelo.Text + "%");
                 comando.Parameters.AddWithValue("@placa", textBoxPlaca.Text);
                 comando.ExecuteNonQuery();
@@ -81,11 +81,6 @@ namespace EstacionamentoMbs
             dataGridViewRelatorios.AutoResizeColumns();
         }
 
-        private void dateTimePickerInicio_ValueChanged(object sender, EventArgs e)
-        {
-            
-        }
-
         private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
         {            
             string conexao = EstacionamentoMbs.Properties.Settings.Default.BdMbs;
@@ -108,8 +103,8 @@ namespace EstacionamentoMbs
                 comando.CommandText = "select * from relatorio where horaEntrada between @dataInicio and @dataFim and placa = @placa order by horaEntrada";
             }
 
-            comando.Parameters.AddWithValue("@dataInicio", dateTimePickerInicio.Value.ToString());
-            comando.Parameters.AddWithValue("@dataFim", dateTimePickerFim.Value.ToString());
+            comando.Parameters.AddWithValue("@dataInicio", dateTimePickerInicio.Value);
+            comando.Parameters.AddWithValue("@dataFim", dateTimePickerFim.Value);
             comando.Parameters.AddWithValue("@modelo", "%" + textBoxModelo.Text + "%");
             comando.Parameters.AddWithValue("@placa", textBoxPlaca.Text);  
 

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EstacionamentoMbs.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -57,24 +58,11 @@ namespace EstacionamentoMbs
         private void buttonCadastrar_Click(object sender, EventArgs e)
         {
             try
-            {
-                string conexao = EstacionamentoMbs.Properties.Settings.Default.BdMbs;
-                SqlConnection sqlConnection = new SqlConnection(conexao);
-                sqlConnection.Open();
-
-                string comando = "INSERT INTO Estatus(modelo, cor, placa, horaEntrada) VALUES(@modelo, @cor, @placa, @horaEntrada)";
-                SqlCommand sqlCommand = new SqlCommand(comando, sqlConnection);
-                sqlCommand.Parameters.AddWithValue("@modelo", textBoxModelo.Text);
-                sqlCommand.Parameters.AddWithValue("@cor", textBoxCor.Text);
-                sqlCommand.Parameters.AddWithValue("@placa", maskedTextBoxPlaca.Text);
-                sqlCommand.Parameters.AddWithValue("@horaEntrada", DateTime.Now.ToString());
-                sqlCommand.ExecuteNonQuery();
-
-                sqlConnection.Close();
+            {                
+                Veiculo veiculo = new Veiculo(textBoxModelo.Text, textBoxCor.Text, maskedTextBoxPlaca.Text, DateTime.Now); 
 
                 disparar_datagrid();
-                autoComplete();
-                
+                autoComplete();                
             }
             catch (Exception msg)
             {
@@ -106,9 +94,9 @@ namespace EstacionamentoMbs
 
                 */                
             }
-            catch (Exception)
+            catch (Exception msg)
             {
-                MessageBox.Show("ERRO");
+                MessageBox.Show("ERRO "+ msg.Message);
             }
 
             textBoxModelo.Text = "";
@@ -138,6 +126,8 @@ namespace EstacionamentoMbs
 
             sqlConnection.Close();
         }
+        
+        double horas, total;
 
         private void buttonSaida_Click(object sender, EventArgs e)
         {
@@ -215,7 +205,7 @@ namespace EstacionamentoMbs
 
         }
 
-        double horas, total;
+        
 
         private void dataGridViewEstatus_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -236,16 +226,15 @@ namespace EstacionamentoMbs
                 buttonSaida.Visible = true;
                 buttonCadastrar.Visible = false;
                 labelValorCobrar.Visible = true;
-                labelTotal.Visible = true;
+                labelTotal.Visible = true;                
 
                 DateTime dataEntrada, dataSaida;
                 TimeSpan result;
-                
+                //string.Format("{0}-{1}-{2}-{3}-{4}-{5}", now.Year, now.Month, now.Day, now.Hour, now.Minute, now.Second)
                 double minutos;
 
                 dataEntrada = Convert.ToDateTime(dataGridViewEstatus.CurrentRow.Cells[4].Value.ToString());
-                dataSaida = Convert.ToDateTime(DateTime.Now.ToString());                
-
+                dataSaida = Convert.ToDateTime(DateTime.Now);
                 result = dataSaida - dataEntrada;
                 horas = Convert.ToDouble(result.Hours.ToString()) * 5;
                 minutos = Convert.ToDouble(result.Minutes.ToString()) * 0.09;

@@ -1,0 +1,10 @@
+========== Estacionamento MBS ===============
+================ Recibo =====================
+ 
+Saida:
+	Data 11/10/2021 17:29:46
+	Do Veiculo : vectra gt
+	Cor : pink
+	Placa : drf-4851
+	Valor Cobrado : R$0
+==============================================

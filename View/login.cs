@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EstacionamentoMbs.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,35 +15,21 @@ namespace EstacionamentoMbs
 {
     public partial class login : Form
     {
-        Thread thread;
-
         public login()
         {
             InitializeComponent();
-
         }
 
         private void buttonLogin_Click(object sender, EventArgs e)
         {
-            string conexao = EstacionamentoMbs.Properties.Settings.Default.BdMbs;
-            SqlConnection sqlConnection = new SqlConnection(conexao);
-            sqlConnection.Open();
+            Usuario.login(textBoxUsuario.Text, textBoxSenha.Text);
 
-            string comando = "SELECT senha FROM Usuarios WHERE usuario = @usuario";
-            SqlCommand sqlCommand = new SqlCommand(comando, sqlConnection);
-            sqlCommand.Parameters.AddWithValue("@usuario", textBoxUsuario.Text);
-
-            if(sqlCommand.ExecuteScalar() == null)
-            {
-                MessageBox.Show("usuario não exite!", "mensagem", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                textBoxUsuario.Focus();
-            }
-            else if(sqlCommand.ExecuteScalar().ToString() == textBoxSenha.Text)
+            if (Usuario.logado == true)
             {
                 this.Close();
-                thread = new Thread(abrirHome);
+                Thread thread = new Thread(abrirHome);
                 thread.SetApartmentState(ApartmentState.STA);
-                thread.Start();                
+                thread.Start();
             }
         }
         private void abrirHome(object obj)

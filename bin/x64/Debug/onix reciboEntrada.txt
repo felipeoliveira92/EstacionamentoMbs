@@ -1,0 +1,9 @@
+============ Estacionamento MBS ==============
+================== Recibo ====================
+ 
+Entrada:
+	Data 11/10/2021 17:57:49
+	Recebemos o Veiculo : onix
+	Cor : vermelho
+	Placa : yui-8956
+==============================================

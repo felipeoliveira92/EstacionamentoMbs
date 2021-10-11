@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace EstacionamentoMbs.Model
 {
     class Estatus
-    {      
+    {
         public DateTime horaEntrada { get; set; }
     }
 }

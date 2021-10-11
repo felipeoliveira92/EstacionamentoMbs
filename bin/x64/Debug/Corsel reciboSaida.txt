@@ -1,0 +1,10 @@
+========== Estacionamento MBS ===============
+================ Recibo =====================
+ 
+Saida:
+	Data 11/10/2021 17:53:36
+	Do Veiculo : Corsel
+	Cor : verde
+	Placa : EEF-1515
+	Valor Cobrado : R$0
+==============================================

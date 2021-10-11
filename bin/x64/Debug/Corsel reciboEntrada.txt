@@ -1,0 +1,9 @@
+============ Estacionamento MBS ==============
+================== Recibo ====================
+ 
+Entrada:
+	Data 11/10/2021 17:53:27
+	Recebemos o Veiculo : Corsel
+	Cor : verde
+	Placa : EEF-1515
+==============================================
