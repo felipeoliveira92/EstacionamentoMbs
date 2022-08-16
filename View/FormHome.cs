@@ -71,19 +71,21 @@ namespace EstacionamentoMbs
 
             try
             {
+                GeraRecibo(textBoxModelo.Text, "Entrada");
+                
                 //StreamWriter para gravar um arquivo
-                StreamWriter objetoarquivo = new StreamWriter(textBoxModelo.Text + " reciboEntrada.txt", false);//false gera um novo arq toda vez,true grava todos no mesmo arq
-                objetoarquivo.WriteLine("============ Estacionamento MBS ==============");
-                objetoarquivo.WriteLine("================== Recibo ====================");
-                objetoarquivo.WriteLine(" ");
-                objetoarquivo.WriteLine("Entrada:");
-                objetoarquivo.WriteLine("\tData " + DateTime.Now);
-                objetoarquivo.WriteLine("\tRecebemos o Veiculo : " + textBoxModelo.Text);
-                objetoarquivo.WriteLine("\tCor : " + textBoxCor.Text);
-                objetoarquivo.WriteLine("\tPlaca : " + maskedTextBoxPlaca.Text);
-                objetoarquivo.WriteLine("==============================================");
-                objetoarquivo.Close();
-                Process.Start(textBoxModelo.Text + " reciboEntrada.txt");
+                // StreamWriter objetoarquivo = new StreamWriter(textBoxModelo.Text + " reciboEntrada.txt", false);//false gera um novo arq toda vez,true grava todos no mesmo arq
+                // objetoarquivo.WriteLine("============ Estacionamento MBS ==============");
+                // objetoarquivo.WriteLine("================== Recibo ====================");
+                // objetoarquivo.WriteLine(" ");
+                // objetoarquivo.WriteLine("Entrada:");
+                // objetoarquivo.WriteLine("\tData " + DateTime.Now);
+                // objetoarquivo.WriteLine("\tRecebemos o Veiculo : " + textBoxModelo.Text);
+                // objetoarquivo.WriteLine("\tCor : " + textBoxCor.Text);
+                // objetoarquivo.WriteLine("\tPlaca : " + maskedTextBoxPlaca.Text);
+                // objetoarquivo.WriteLine("==============================================");
+                // objetoarquivo.Close();
+                // Process.Start(textBoxModelo.Text + " reciboEntrada.txt");
                 
                 /*
                 if(printDialog1.ShowDialog() == DialogResult.OK)
@@ -108,6 +110,7 @@ namespace EstacionamentoMbs
         {
             disparar_datagrid();
         }
+        
         public void disparar_datagrid()
         {
             string conexao = EstacionamentoMbs.Properties.Settings.Default.BdMbs;
@@ -170,42 +173,79 @@ namespace EstacionamentoMbs
 
             try
             {
+                GeraRecibo(textBoxModelo.Text, "Saida");
                 //StreamWriter para gravar um arquivo
-                StreamWriter objetoarquivo = new StreamWriter(textBoxModelo.Text + " reciboSaida.txt", false);//false gera um novo arq toda vez,true grava todos no mesmo arq
+                // StreamWriter objetoarquivo = new StreamWriter(textBoxModelo.Text + " reciboSaida.txt", false);//false gera um novo arq toda vez,true grava todos no mesmo arq
+                // objetoarquivo.WriteLine("========== Estacionamento MBS ===============");
+                // objetoarquivo.WriteLine("================ Recibo =====================");
+                // objetoarquivo.WriteLine(" ");
+                // objetoarquivo.WriteLine("Saida:");
+                // objetoarquivo.WriteLine("\tData " + DateTime.Now);
+                // objetoarquivo.WriteLine("\tDo Veiculo : " + textBoxModelo.Text);
+                // objetoarquivo.WriteLine("\tCor : " + textBoxCor.Text);
+                // objetoarquivo.WriteLine("\tPlaca : " + maskedTextBoxPlaca.Text);
+                // objetoarquivo.WriteLine("\tValor Cobrado : R$" + total.ToString());
+                // objetoarquivo.WriteLine("==============================================");
+                // objetoarquivo.Close();
+                // Process.Start(textBoxModelo.Text + " reciboSaida.txt");
+
+                RefreshUI();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("ERRO",$"{ex.message}");
+            }
+        }
+
+        private void GeraRecibo(string nomeArquivo, string tipoRecibo)
+        {
+            try
+            {
+                //StreamWriter para gravar um arquivo
+                var objetoarquivo = new StreamWriter($"{nomeArquivo}-{tipoArquivo}.txt", false);//false gera um novo arq toda vez,true grava todos no mesmo arq
                 objetoarquivo.WriteLine("========== Estacionamento MBS ===============");
                 objetoarquivo.WriteLine("================ Recibo =====================");
                 objetoarquivo.WriteLine(" ");
-                objetoarquivo.WriteLine("Saida:");
+
+                if(tipoRecibo == "Entrada")
+                    objetoarquivo.WriteLine("Entrada:");
+                else
+                    objetoarquivo.WriteLine("Saida:");
+                
                 objetoarquivo.WriteLine("\tData " + DateTime.Now);
                 objetoarquivo.WriteLine("\tDo Veiculo : " + textBoxModelo.Text);
                 objetoarquivo.WriteLine("\tCor : " + textBoxCor.Text);
                 objetoarquivo.WriteLine("\tPlaca : " + maskedTextBoxPlaca.Text);
-                objetoarquivo.WriteLine("\tValor Cobrado : R$" + total.ToString());
+
+                if(tipoRecibo == "Saida")
+                    objetoarquivo.WriteLine("\tValor Cobrado : R$" + total.ToString());
+                
                 objetoarquivo.WriteLine("==============================================");
-                objetoarquivo.Close();
-                Process.Start(textBoxModelo.Text + " reciboSaida.txt");                
+                Process.Start($"{nomeArquivo}-{tipoArquivo}.txt");
 
-                textBoxModelo.Text = "";
-                textBoxCor.Text = "";
-                maskedTextBoxPlaca.Text = "";
-                labelHoraEntrada.Visible = false;
-                textBoxHoraEntrada.Visible = false;
-                textBoxHoraEntrada.Text = "";
-                buttonSaida.Visible = false;
-                buttonNao.Visible = false;
-                labelAlerta.Text = "";
-                buttonCadastrar.Visible = true;
-                labelValorCobrar.Visible = false;
-                labelTotal.Visible = false;
+                RefreshUI();
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                MessageBox.Show("ERRO");
+                MessageBox.Show("ERRO",$"{ex.message}");
             }
-
         }
 
-        
+        private void RefreshUI()
+        {
+            textBoxModelo.Text = "";
+            textBoxCor.Text = "";
+            maskedTextBoxPlaca.Text = "";
+            labelHoraEntrada.Visible = false;
+            textBoxHoraEntrada.Visible = false;
+            textBoxHoraEntrada.Text = "";
+            buttonSaida.Visible = false;
+            buttonNao.Visible = false;
+            labelAlerta.Text = "";
+            buttonCadastrar.Visible = true;
+            labelValorCobrar.Visible = false;
+            labelTotal.Visible = false;
+        }        
 
         private void dataGridViewEstatus_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -248,8 +288,10 @@ namespace EstacionamentoMbs
 
         private void buttonRelatorios_Click(object sender, EventArgs e)
         {
-            Relatorios relatorios = new Relatorios();
-            relatorios.ShowDialog();
+            using(Relatorios relatorios = new Relatorios())
+            {
+                relatorios.ShowDialog();
+            }            
         }
 
         private void buttonSair_Click(object sender, EventArgs e)
